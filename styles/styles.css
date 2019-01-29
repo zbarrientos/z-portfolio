@@ -1,0 +1,75 @@
+
+body  {
+  background-color: #011F2F;
+     padding-bottom: 5rem;
+}
+
+nav {
+   background-color: hsla(0, 100%, 100%, 0.1);
+}
+header {
+   background: url(../images/hero_image.jpg) center / cover;
+   height: 100vh;
+   justify-content:center;
+   text-align: left;
+ }
+
+h1 {
+  color: hsla(0, 0%, 100%, 1);
+  font-weight: bold;
+}
+
+h2{
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+p {
+  color: white;
+}
+
+.slogan {
+  color: pink;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+main {
+    max-width: 1440px;
+}
+
+.project-description {
+    padding-left: 0;
+}
+
+.project img {
+    width: 100%;
+}
+
+footer.mdl-mini-footer {
+   background-color: hsla(0, 100%, 100%, 0.1);
+   color: white;
+   bottom: 0;
+   padding: 0.5rem;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+ }
+
+ footer.mdl-mini-footer > ul {
+   margin: auto;
+   font-size: 1.5rem;
+ }
+
+ @media screen and (max-width: 1024px) {
+    header.mdl-layout__header {
+      display: flex;
+    }
+  }
