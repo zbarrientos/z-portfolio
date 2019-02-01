@@ -4,7 +4,6 @@ body  {
      padding-bottom: 5rem;
 }
 
-
 /*
 nav {
    background-color: hsla(0, 100%, 100%, 0.1);
@@ -25,7 +24,7 @@ nav  ul li  a {
 */
 
 section.hero {
-   background: url(../images/hero_image.jpg) center / cover;
+   background: url(../images/cs_head_desktop.png) center / cover;
    padding-top: 20vh;
    height: 100vh;
    text-align: left;
@@ -38,9 +37,23 @@ section.welcome_container {
   text-align: center;
 }
 
+section.casestudy_header {
+  background: url(../images/cs_head_desktop.png) center / cover;
+  height: 100vh;
+  text-align: center;
+}
+
+section.summary {
+  align-items: center;
+  background-color: white;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
 h1 {
   color: hsla(0, 0%, 100%, 1);
   font-weight: bold;
+  padding-top: 10vh;
 }
 
 h2{
@@ -93,7 +106,7 @@ footer.mdl-mini-footer {
 
  footer.mdl-mini-footer > ul {
    margin: auto;
-   font-size: 1.5rem;
+   font-size: 1.2rem;
  }
 
  @media screen and (max-width: 1024px) {
