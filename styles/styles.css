@@ -23,6 +23,11 @@ nav  ul li  a {
 }
 */
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 section.hero {
    background: url(../images/cs_head_desktop.png) center / cover;
    padding-top: 20vh;
@@ -37,9 +42,9 @@ section.welcome_container {
   text-align: center;
 }
 
+/* project or case study stuff */
 section.casestudy_header {
   background: url(../images/cs_head_desktop.png) center / cover;
-  height: 100vh;
   text-align: center;
 }
 
