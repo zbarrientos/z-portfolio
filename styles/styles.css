@@ -1,48 +1,46 @@
 
+span.mdl-layout-title {
+  color: white;
+  font-family: futura-pt, futura, sans-serif;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+}
+a.mdl-navigation__link {
+  color: white;
+  font-family: futura-pt, futura, sans-serif;
+}
+
+/* STRUCTURE */
+
 body  {
   background-color: #011F2F;
-     padding-bottom: 5rem;
+  padding-bottom: 5rem;
+  max-width: 1440px;
 }
 
-/*
-nav {
-   background-color: hsla(0, 100%, 100%, 0.1);
+header {
+  max-width: 1440px;
 }
 
 
-nav ul {
-  display: flex;
-  list-style-type: none;
-}
-
-/* style for the first level items
-nav  ul li  a {
-    color: white;
-    padding: 2em;
-    text-decoration: none;
-}
-*/
-
-img {
-    max-width: 100%;
-    height: auto;
-}
+/* HOMEPAGE SPECIFIC */
 
 section.hero {
    background: url(../images/cs_head_desktop.png) center / cover;
-   padding-top: 20vh;
-   height: 100vh;
+   padding-top: 0vh;
    text-align: left;
+   padding-bottom: 20vh;
  }
 
 section.welcome_container {
   background-color: white;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
   text-align: center;
 }
 
-/* project or case study stuff */
+/* PROJECT/CASE STUDY PAGE SPECIFIC */
+
 section.casestudy_header {
   background: url(../images/cs_head_desktop.png) center / cover;
   text-align: center;
@@ -55,41 +53,14 @@ section.summary {
   padding-bottom: 10vh;
 }
 
-h1 {
-  color: hsla(0, 0%, 100%, 1);
-  font-weight: bold;
-  padding-top: 10vh;
+/* IMAGES */
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
-h2{
-
-}
-
-h3 {
-
-}
-
-h4 {
-
-}
-
-h5 {
-  color:white;
-}
-
-p {
-
-}
-
-.slogan {
-  color: pink;
-  font-weight: lighter;
-  font-size: 2rem;
-}
-
-main {
-    max-width: 1440px;
-}
+/* HOMEPAGE PROJECT PREVIEW STYLES */
 
 .project-description {
     padding-left: 0;
@@ -99,10 +70,65 @@ main {
     width: 100%;
 }
 
+
+/* TYPOGRAPHY */
+
+h1 {
+  color: hsla(0, 0%, 100%, 1);
+  font-family: futura-pt, futura, sans-sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 20px;
+  padding-top: 20vh;
+}
+
+h1.hero_name {
+  color: hsla(0, 0%, 100%, 1);
+  font-family: futura-pt, sans-sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 10px;
+  padding-left: 2vw;
+}
+
+h2 {
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 1rem;
+  letter-spacing: 4px;
+}
+
+h2.hero_location {
+    color: hsla(0, 0%, 100%, 1);
+    font-size: 1.2rem;
+    letter-spacing: 10px;
+    padding-bottom: 20vh;
+    padding-left: 2vw;
+}
+
+h3 {
+  font-family: futura-pt, futura, sans-sans-serif;
+  text-align: center;
+}
+
+h4 {
+  font-family: futura-pt, futura, sans-sans-serif;
+}
+
+h5 {
+  color:white;
+}
+
+p {
+font-family: proxima-nova, sans-serif;
+font-size: 16px;
+}
+
+/* FOOTER */
+
 footer.mdl-mini-footer {
    background-color: hsla(0, 100%, 100%, 0.2);
-   color:white;
    bottom: 0;
+   color:white;
    padding: 0.5rem;
    position: fixed;
    width: 100%;
@@ -110,9 +136,11 @@ footer.mdl-mini-footer {
  }
 
  footer.mdl-mini-footer > ul {
-   margin: auto;
    font-size: 1.2rem;
+   margin: auto;
  }
+
+/* RESPONSIVE MEDIA QUERY DESIGN */
 
  @media screen and (max-width: 1024px) {
     header.mdl-layout__header {
