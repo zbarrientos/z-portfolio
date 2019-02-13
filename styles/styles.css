@@ -1,4 +1,7 @@
 /* NAVIGATION */
+header {
+  max-width: 800px;
+}
 span.mdl-layout-title {
   color: white;
   font-family: futura-pt, futura, sans-serif;
@@ -10,67 +13,99 @@ a.mdl-navigation__link {
   font-family: futura-pt, futura, sans-serif;
 }
 
+
 /* STRUCTURE */
 
 body  {
-  background-color: #011F2F;
-  padding-bottom: 5em;
+  background: url(../images/cs_head_desktop.png) center / cover;
+  padding-bottom: 2em;
   font-size: 16px;
 }
 
-/* HOMEPAGE SPECIFIC */
+div.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
-section.hero {
-   background: url(../images/cs_head_desktop.png) center / cover;
-   text-align: left;
- }
+
+/* HOMEPAGE SPECIFIC SECTIONS */
 
 section.welcome_container {
-  background-color: white;
-  margin-top: 20vh;
+  background-color: hsla(360, 100%, 100%, 0.05);
+  margin-top: 25vh;
   margin-bottom: 20vh;
-  padding-top: 5vh;
-  padding-bottom: 5vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 4vh;
+  padding-right: 4vh;
   text-align: center;
 }
 
-/* PROJECT/CASE STUDY PAGE SPECIFIC */
+/* CASE STUDY PAGE SPECIFIC SECTIONS */
 
 section.casestudy_header {
-  background: url(../images/cs_head_desktop.png) center / cover;
   text-align: center;
 }
 
 section.summary {
-  align-items: center;
-  background-color: white;
-  padding-top: 10vh;
+  background-color: #011F2F;
+  padding: 4vh;
   padding-bottom: 10vh;
+}
+
+div.sum_details {
+  padding: 2vh;
+}
+
+section.casestudy_section {
+  background-color: #011F2F;
+  padding: 4vh;
 }
 
 /* IMAGES */
 
 img {
-    max-width: 100%;
-    height: auto;
+  height: auto;
+  max-width: 100%;
 }
 
 /* HOMEPAGE PROJECT PREVIEW STYLES */
+.project {
+  background-color: hsla(360, 100%, 100%, 0.05);
+  color: white;
+}
 
 .project-description {
-    padding-left: 0;
+  color: white;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+  margin-top: 3vh;
 }
 
 .project img {
-    width: 100%;
+  width: 100%;
 }
 
+/* CTA Button */
+button {
+  background-color: #FF44DB;
+  border: none;
+  color: white;
+  font-family: proxima-nova, sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 2px;
+  padding: 12px;
+}
+
+div.sum_button {
+  text-align: center;
+}
 
 /* TYPOGRAPHY */
 
 h1 {
   color: hsla(0, 0%, 100%, 1);
-  font-family: futura-pt, futura, sans-sans-serif;
+  font-family: futura-pt, futura, sans-serif;
   font-size: 3em;
   font-weight: bold;
   letter-spacing: 20px;
@@ -79,33 +114,55 @@ h1 {
 
 h1.hero_name {
   color: hsla(0, 0%, 100%, 1);
-  font-family: futura-pt, sans-sans-serif;
+  font-family: futura-pt, sans-serif;
   font-size: 3em;
   font-weight: bold;
   letter-spacing: 10px;
   padding-left: 2vw;
+  padding-top: 30vh;
 }
 
 h2 {
-  color: hsla(0, 0%, 100%, 1);
+  color: white;
   font-size: 1em;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
-h2.hero_location {
-    color: hsla(0, 0%, 100%, 1);
-    font-size: 1.2em;
-    letter-spacing: 10px;
-    padding-left: 2vw;
+h2.hero_role_location {
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 1.2em;
+  letter-spacing: 10px;
+  padding-left: 2vw;
+}
+
+/* font for client/scope/role titles */
+h2.mdl-card__title-text {
+  color: #FF44DB;
+  font-family: futura, sans-serif;
+  letter-spacing: 2px;
 }
 
 h3 {
-  font-family: futura-pt, futura, sans-sans-serif;
+  color: white;
+  font-family: futura-pt, futura, sans-serif;
+  letter-spacing: 5px;
   text-align: center;
 }
 
+/* style for title in project preview on homepage */
+h3.mdl-card__title-text {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
 h4 {
-  font-family: futura-pt, futura, sans-sans-serif;
+  font-family: proxima-nova, sans-serif;
+}
+
+/* style for sub-title in project preview on homepage */
+h4.mdl-card__title-text {
+  font-family: proxima-nova, sans-serif;
+  font-size: 1.2em;
 }
 
 h5 {
@@ -113,26 +170,30 @@ h5 {
 }
 
 p {
-font-family: proxima-nova, sans-serif;
+  color: white;
+  font-family: proxima-nova, sans-serif;
+  font-size: 1em;
+  letter-spacing: 1px;
 }
+
 
 /* FOOTER */
 
 footer.mdl-mini-footer {
-   background-color: hsla(0, 100%, 100%, 1);
+   background-color: #011F2F;
    bottom: 0;
-   color:pink;
+   margin-top: 5em;
    padding: 0.5rem;
-   position: fixed;
    width: 100%;
    z-index: 1;
  }
 
  footer.mdl-mini-footer > ul {
+   color: white;
    font-family:futura-pt, futura, sans-serif;
-   font-size: 1.2rem;
+   font-size: 1rem;
    letter-spacing: 0.2em;
-   margin: auto;
+   margin: 0 auto;
  }
 
 /* RESPONSIVE MEDIA QUERY DESIGN */
