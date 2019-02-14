@@ -31,6 +31,7 @@ div.container {
   max-width: 800px;
 }
 
+
 /* HOMEPAGE SPECIFIC SECTIONS */
 
 section.welcome_container {
@@ -40,6 +41,7 @@ section.welcome_container {
   padding: 10vh;
   text-align: center;
 }
+
 
 /* CASE STUDY PAGE SPECIFIC SECTIONS */
 
@@ -63,6 +65,7 @@ section.casestudy_section {
   padding-bottom: 10vh;
   width: 100%;
 }
+
 
 /* ABOUT ME SPECIFIC SECTIONS */
 
@@ -88,6 +91,7 @@ img {
 
 
 /* HOMEPAGE PROJECT PREVIEW STYLES */
+
 .project {
   background-color: hsla(360, 100%, 100%, 0.05);
   color: white;
@@ -103,6 +107,7 @@ img {
 .project img {
   width: 100%;
 }
+
 
 /* BUTTONS */
 
@@ -127,26 +132,28 @@ button.social {
   font-size: 1.8em;
 }
 
+
 /* SCROLL BUTTON */
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 12vh; /* Place the button at the bottom of the page */
-  right: 30px;
-  z-index: 99; /* Make sure it does not overlap */
-  border: none;
-  outline: none;
   background-color: white;
+  border: none;
+  border-radius: 20px; /* Rounded corners */
+  bottom: 12vh; /* Place the button at the bottom of the page */
   color: #FF44DB;
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px;
-  border-radius: 20px; /* Rounded corners */
+  display: none; /* Hidden by default */
   font-size: 18px;
+  outline: none;
+  padding: 15px;
+  position: fixed; /* Fixed/sticky position */
+  right: 30px;
+  z-index: 99; /* Make sure it does not overlap */
 }
 
 #myBtn:hover {
   background-color: hsla(360, 100%, 100%, 0.5); /* Add a dark-grey background on hover */
 }
+
 
 /* TYPOGRAPHY */
 
@@ -257,6 +264,8 @@ span.pink {
 a {
   color: yellow;
 }
+
+
 /* FOOTER */
 
 footer.mdl-mini-footer {
@@ -279,9 +288,10 @@ footer.mdl-mini-footer {
 
 /* RESPONSIVE MEDIA QUERY DESIGN */
 
-/*MOBILE STYLES */
-@media screen and (max-width: 575px) {
 
+/*MOBILE STYLES */
+
+@media screen and (max-width: 575px) {
 h1 {
   font-size: 1.8em;
   letter-spacing: 10px;
@@ -308,9 +318,10 @@ section.aboutme_header > button {
 
 }
 
-/* LAPTOP & LARGER STYLES */
-@media screen and (min-width: 991px) {
 
+/* LAPTOP & LARGER STYLES */
+
+@media screen and (min-width: 991px) {
 span.mdl-layout-title {
   font-size: 1.4rem;
 }
@@ -329,11 +340,13 @@ h2.hero_role_location {
 }
 
 footer.mdl-mini-footer > ul {
-font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 }
 
+
 /* NAV RESPONSIVE */
+
  @media screen and (max-width: 1024px) {
     header.mdl-layout__header {
       display: flex;
