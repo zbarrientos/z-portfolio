@@ -18,6 +18,7 @@ a.mdl-navigation__link {
 
 body  {
   background: url(../images/cs_head_desktop.png) center / cover;
+  background-color: #011F2F;
   padding-bottom: 2em;
   font-size: 16px;
 }
@@ -27,17 +28,17 @@ div.container {
   margin: 0 auto;
 }
 
-
 /* HOMEPAGE SPECIFIC SECTIONS */
+
+section.hero {
+
+}
 
 section.welcome_container {
   background-color: hsla(360, 100%, 100%, 0.05);
   margin-top: 25vh;
   margin-bottom: 20vh;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  padding-left: 4vh;
-  padding-right: 4vh;
+  padding: 10vh;
   text-align: center;
 }
 
@@ -62,12 +63,28 @@ section.casestudy_section {
   padding: 4vh;
 }
 
+/* ABOUT ME SPECIFIC SECTIONS */
+
+section.aboutme_header {
+  margin-top: 20vh;
+}
+
+section.aboutme_text {
+  background-color: #011F2F;
+  padding-left: 2vh;
+}
+
+div.experience {
+  background-color: #011F2F;
+}
+
 /* IMAGES */
 
 img {
   height: auto;
   max-width: 100%;
 }
+
 
 /* HOMEPAGE PROJECT PREVIEW STYLES */
 .project {
@@ -86,7 +103,7 @@ img {
   width: 100%;
 }
 
-/* CTA Button */
+/* CTA Buttons */
 button {
   background-color: #FF44DB;
   border: none;
@@ -99,6 +116,12 @@ button {
 
 div.sum_button {
   text-align: center;
+  margin-top: 5vh;
+}
+
+button.social {
+  color: #FF44DB;
+  font-size: 1.8em;
 }
 
 /* TYPOGRAPHY */
@@ -122,6 +145,16 @@ h1.hero_name {
   padding-top: 30vh;
 }
 
+h1.aboutme{
+  color: #FF44DB;
+  font-family: futura, sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  padding-top: 0;
+  text-align: left;
+}
+
 h2 {
   color: white;
   font-size: 1em;
@@ -135,12 +168,6 @@ h2.hero_role_location {
   padding-left: 2vw;
 }
 
-/* font for client/scope/role titles */
-h2.mdl-card__title-text {
-  color: #FF44DB;
-  font-family: futura, sans-serif;
-  letter-spacing: 2px;
-}
 
 h3 {
   color: white;
@@ -156,7 +183,8 @@ h3.mdl-card__title-text {
 }
 
 h4 {
-  font-family: proxima-nova, sans-serif;
+  color: white;
+  font-family: futura-pt, sans-serif;
 }
 
 /* style for sub-title in project preview on homepage */
@@ -165,8 +193,16 @@ h4.mdl-card__title-text {
   font-size: 1.2em;
 }
 
+
 h5 {
-  color:white;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+
+/* font for client/scope/role titles */
+h5.mdl-card__title-text {
+  color: #FF44DB;
+  font-family: futura, sans-serif;
 }
 
 p {
@@ -176,7 +212,22 @@ p {
   letter-spacing: 1px;
 }
 
+p.experience {
+  padding-left: 4vh;
+}
 
+ul {
+  list-style-type: none;
+}
+
+li {
+font-size: 1em;
+letter-spacing: 2px;
+}
+
+span.pink {
+  color: #FF44DB;
+}
 /* FOOTER */
 
 footer.mdl-mini-footer {
