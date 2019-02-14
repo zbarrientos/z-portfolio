@@ -2,12 +2,14 @@
 header {
   max-width: 800px;
 }
+
 span.mdl-layout-title {
   color: white;
   font-family: futura-pt, futura, sans-serif;
   font-size: 1.2rem;
   letter-spacing: 0.2rem;
 }
+
 a.mdl-navigation__link {
   color: white;
   font-family: futura-pt, futura, sans-serif;
@@ -58,6 +60,8 @@ div.sum_details {
 section.casestudy_section {
   background-color: #011F2F;
   padding: 4vh;
+  padding-bottom: 10vh;
+  width: 100%;
 }
 
 /* ABOUT ME SPECIFIC SECTIONS */
@@ -100,8 +104,9 @@ img {
   width: 100%;
 }
 
-/* CTA Buttons */
-button {
+/* BUTTONS */
+
+a.button {
   background-color: #FF44DB;
   border: none;
   color: white;
@@ -109,6 +114,7 @@ button {
   font-size: 0.8em;
   letter-spacing: 2px;
   padding: 12px;
+  text-decoration: none;
 }
 
 div.sum_button {
@@ -119,6 +125,27 @@ div.sum_button {
 button.social {
   color: #FF44DB;
   font-size: 1.8em;
+}
+
+/* SCROLL BUTTON */
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 12vh; /* Place the button at the bottom of the page */
+  right: 30px;
+  z-index: 99; /* Make sure it does not overlap */
+  border: none;
+  outline: none;
+  background-color: white;
+  color: #FF44DB;
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px;
+  border-radius: 20px; /* Rounded corners */
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: hsla(360, 100%, 100%, 0.5); /* Add a dark-grey background on hover */
 }
 
 /* TYPOGRAPHY */
@@ -135,7 +162,7 @@ h1 {
 h1.hero_name {
   color: hsla(0, 0%, 100%, 1);
   font-family: futura-pt, sans-serif;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
   letter-spacing: 10px;
   padding-left: 2vw;
@@ -160,7 +187,7 @@ h2 {
 
 h2.hero_role_location {
   color: hsla(0, 0%, 100%, 1);
-  font-size: 1.2em;
+  font-size: 1em;
   letter-spacing: 10px;
   padding-left: 2vw;
 }
@@ -218,12 +245,17 @@ ul {
 }
 
 li {
+  color: white;
   font-size: 1em;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 span.pink {
   color: #FF44DB;
+}
+
+a {
+  color: yellow;
 }
 /* FOOTER */
 
@@ -244,8 +276,64 @@ footer.mdl-mini-footer {
    margin: 0 auto;
  }
 
+
 /* RESPONSIVE MEDIA QUERY DESIGN */
 
+/*MOBILE STYLES */
+@media screen and (max-width: 575px) {
+
+h1 {
+  font-size: 1.8em;
+  letter-spacing: 10px;
+}
+
+h1.hero_name {
+  padding-top: 25vh;
+  text-align: center;
+}
+
+h2.hero_role_location{
+  text-align: center;
+}
+
+section.welcome_container {
+  margin-bottom: 15vh;
+  margin-top: 15vh;
+}
+
+section.aboutme_header > button {
+  margin: auto;
+  margin-bottom: 4vh;
+}
+
+}
+
+/* LAPTOP & LARGER STYLES */
+@media screen and (min-width: 991px) {
+
+span.mdl-layout-title {
+  font-size: 1.4rem;
+}
+
+a.mdl-navigation__link {
+  font-size: 1.2rem;
+}
+
+h1.hero_name {
+  font-size: 3em;
+}
+
+h2.hero_role_location {
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 1.2em;
+}
+
+footer.mdl-mini-footer > ul {
+font-size: 1.2rem;
+}
+}
+
+/* NAV RESPONSIVE */
  @media screen and (max-width: 1024px) {
     header.mdl-layout__header {
       display: flex;
