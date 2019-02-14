@@ -19,25 +19,22 @@ a.mdl-navigation__link {
 body  {
   background: url(../images/cs_head_desktop.png) center / cover;
   background-color: #011F2F;
-  padding-bottom: 2em;
   font-size: 16px;
+  padding-bottom: 2em;
+
 }
 
 div.container {
-  max-width: 800px;
   margin: 0 auto;
+  max-width: 800px;
 }
 
 /* HOMEPAGE SPECIFIC SECTIONS */
 
-section.hero {
-
-}
-
 section.welcome_container {
   background-color: hsla(360, 100%, 100%, 0.05);
-  margin-top: 25vh;
   margin-bottom: 20vh;
+  margin-top: 25vh;
   padding: 10vh;
   text-align: center;
 }
@@ -115,8 +112,8 @@ button {
 }
 
 div.sum_button {
-  text-align: center;
   margin-top: 5vh;
+  text-align: center;
 }
 
 button.social {
@@ -221,8 +218,8 @@ ul {
 }
 
 li {
-font-size: 1em;
-letter-spacing: 2px;
+  font-size: 1em;
+  letter-spacing: 2px;
 }
 
 span.pink {
