@@ -66,9 +66,6 @@ section.casestudy_section {
   width: 100%;
 }
 
-section.process {
-  color: white;
-}
 
 /* ABOUT ME SPECIFIC SECTIONS */
 
@@ -217,7 +214,7 @@ h3.mdl-card__title-text {
 }
 
 h4 {
-  color: white;
+  color: pink;
   font-family: futura-pt, sans-serif;
 }
 
@@ -268,6 +265,11 @@ a {
   color: yellow;
 }
 
+
+/* OTHER */
+span.spacer {
+  padding: 1px;
+}
 
 /* FOOTER */
 
