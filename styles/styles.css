@@ -183,6 +183,7 @@ h1.hero_name {
   letter-spacing: 10px;
   padding-left: 2vw;
   padding-top: 30vh;
+  text-align: center;
 }
 
 h1.aboutme{
@@ -204,8 +205,9 @@ h2 {
 h2.hero_role_location {
   color: hsla(0, 0%, 100%, 1);
   font-size: 1em;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   padding-left: 2vw;
+  text-align: center;
 }
 
 
@@ -410,11 +412,6 @@ h1 {
 
 h1.hero_name {
   padding-top: 25vh;
-  text-align: center;
-}
-
-h2.hero_role_location{
-  text-align: center;
 }
 
 section.welcome_container {
@@ -426,7 +423,6 @@ section.aboutme_header > button {
   margin: auto;
   margin-bottom: 4vh;
 }
-
 }
 
 
@@ -447,7 +443,7 @@ h1.hero_name {
 
 h2.hero_role_location {
   color: hsla(0, 0%, 100%, 1);
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 footer.mdl-mini-footer > ul {
