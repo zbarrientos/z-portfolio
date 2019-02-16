@@ -1,6 +1,6 @@
 /* NAVIGATION */
 header {
-  max-width: 800px;
+  max-width: 700px;
 }
 
 span.mdl-layout-title {
@@ -28,7 +28,7 @@ body  {
 
 div.container {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 700px;
 }
 
 
@@ -75,16 +75,20 @@ div.projectimage > img {
 
 section.aboutme_header {
   margin-top: 20vh;
+  margin-bottom:5vh;
 }
 
 section.aboutme_text {
   background-color: #011F2F;
-  padding-left: 2vh;
+  padding-left: 1vh;
+  padding-right: 1vh;
 }
 
 div.experience {
   background-color: #011F2F;
+  margin-top: 5vh;
 }
+
 
 /* IMAGES */
 
@@ -100,7 +104,6 @@ img {
   color: white;
   padding-bottom: 4vh;
   padding-top: 4vh;
-
 }
 
 .project-description {
@@ -196,7 +199,6 @@ h2 {
   color: white;
   font-size: 1em;
   letter-spacing: 2px;
-  font-style: italic;
 }
 
 h2.hero_role_location {
@@ -298,7 +300,7 @@ footer.mdl-mini-footer {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 800px;
+  max-width: 700px;
   position: relative;
   margin: auto;
 }
@@ -363,6 +365,7 @@ footer.mdl-mini-footer {
   height: 15px;
   width: 15px;
   margin: 0 2px;
+  margin-bottom: 5vh;
   background-color: white;
   border-radius: 50%;
   display: inline-block;
