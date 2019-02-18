@@ -31,7 +31,10 @@ div.container {
   max-width: 700px;
 }
 
-
+div.container2 {
+  margin: 0 auto;
+  max-width: 800px;
+}
 /* HOMEPAGE SPECIFIC SECTIONS */
 
 section.welcome_container {
