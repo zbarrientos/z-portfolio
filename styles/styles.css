@@ -420,8 +420,13 @@ section.welcome_container {
 }
 
 #myBtn {
-  bottom: 6vh; /* Place the button at the bottom of the page */
+  bottom: 0vh; /* Place the button at the bottom of the page */
 }
+
+#myBtn:hover {
+  background-color: white;
+}
+
 /* SAVING IF WANT TO IMPLEMENT SOCIAL ICON STYLES ON ABOUTME PAGE
 
 section.aboutme_header > button {
