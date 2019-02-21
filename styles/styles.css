@@ -31,10 +31,6 @@ div.container {
   max-width: 700px;
 }
 
-div.container2 {
-  margin: 0 auto;
-  max-width: 800px;
-}
 /* HOMEPAGE SPECIFIC SECTIONS */
 
 section.welcome_container {
@@ -76,7 +72,7 @@ div.projectimage > img {
 
 /* ABOUT ME SPECIFIC SECTIONS */
 
-section.aboutme_header {
+section.aboutme_head {
 
   margin-bottom:5vh;
   padding-top: 20vh;
@@ -423,10 +419,13 @@ section.welcome_container {
   margin-top: 15vh;
 }
 
+/*
 section.aboutme_header > button {
   margin: auto;
   margin-bottom: 4vh;
 }
+*/
+
 }
 
 
@@ -458,7 +457,7 @@ footer.mdl-mini-footer > ul {
 
 /* NAV RESPONSIVE */
 
- @media screen and (max-width: 1024px) {
+ @media screen and (min-width: 1px) {
     header.mdl-layout__header {
       display: flex;
     }
