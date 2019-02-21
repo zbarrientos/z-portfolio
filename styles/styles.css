@@ -160,7 +160,7 @@ button.social {
 }
 
 #myBtn:hover {
-  background-color: hsla(360, 100%, 100%, 0.5); /* Add a dark-grey background on hover */
+  background-color: hsla(360, 100%, 100%, 0.8); /* Add a dark-grey background on hover */
 }
 
 
@@ -419,7 +419,11 @@ section.welcome_container {
   margin-top: 15vh;
 }
 
-/*
+#myBtn {
+  bottom: 6vh; /* Place the button at the bottom of the page */
+}
+/* SAVING IF WANT TO IMPLEMENT SOCIAL ICON STYLES ON ABOUTME PAGE
+
 section.aboutme_header > button {
   margin: auto;
   margin-bottom: 4vh;
