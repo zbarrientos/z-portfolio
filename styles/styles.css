@@ -77,8 +77,9 @@ div.projectimage > img {
 /* ABOUT ME SPECIFIC SECTIONS */
 
 section.aboutme_header {
-  margin-top: 20vh;
+
   margin-bottom:5vh;
+  padding-top: 20vh;
 }
 
 section.aboutme_text {
