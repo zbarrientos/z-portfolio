@@ -15,13 +15,16 @@ a.mdl-navigation__link {
   font-family: futura-pt, futura, sans-serif;
 }
 
+a.mdl-navigation__link:hover{
+  color: yellow;
+}
 
 /* STRUCTURE */
 
 body  {
   background: url(../images/cs_head_desktop.png) center / cover;
   background-color: #011F2F;
-  font-size: 16px;
+  font-size: 17px;
   padding-bottom: 2em;
 
 }
@@ -29,6 +32,7 @@ body  {
 div.container {
   margin: 0 auto;
   max-width: 700px;
+  position: relative;
 }
 
 /* HOMEPAGE SPECIFIC SECTIONS */
@@ -38,6 +42,7 @@ section.welcome_container {
   margin-bottom: 20vh;
   margin-top: 25vh;
   padding: 10vh;
+  position: relative;
   text-align: center;
 }
 
@@ -130,6 +135,16 @@ a.button {
   padding: 12px;
   text-decoration: none;
 }
+
+a.button:hover{
+  background-color: yellow;
+  color: #011F2F;
+}
+
+a.csbutton {
+  color: #FF44DB;
+}
+
 
 div.sum_button {
   margin-top: 5vh;
@@ -245,17 +260,19 @@ h5 {
 h5.mdl-card__title-text {
   color: #FF44DB;
   font-family: futura, sans-serif;
+  padding-left: 4vh;
 }
+
 
 p {
   color: white;
   font-family: proxima-nova, sans-serif;
   font-size: 1em;
-  letter-spacing: 1px;
+  letter-spacing:1px;
 }
 
 p.experience {
-  padding-left: 4vh;
+  padding-left: 7vh;
 }
 
 ul.nobullets {
@@ -294,7 +311,7 @@ footer.mdl-mini-footer {
    font-size: 1rem;
    letter-spacing: 0.2em;
    margin: 0 auto;
- }
+}
 
 /* Slideshow */
 
