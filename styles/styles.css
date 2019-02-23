@@ -260,7 +260,12 @@ h5 {
 h5.mdl-card__title-text {
   color: #FF44DB;
   font-family: futura, sans-serif;
-  padding-left: 4vh;
+}
+
+h6.mdl-card__title-text {
+  color: #FF44DB;
+  font-family: futura, sans-serif;
+  padding-left: 3vh;
 }
 
 
@@ -272,7 +277,7 @@ p {
 }
 
 p.experience {
-  padding-left: 7vh;
+  padding-left: 3vh;
 }
 
 ul.nobullets {
