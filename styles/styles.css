@@ -46,6 +46,9 @@ section.welcome_container {
   text-align: center;
 }
 
+section.testimonials {
+  background-color:hsla(360, 100%, 100%, 0.4) ;
+}
 
 /* CASE STUDY PAGE SPECIFIC SECTIONS */
 
@@ -100,6 +103,10 @@ div.experience {
 img {
   height: auto;
   max-width: 100%;
+}
+
+div.experience > img {
+  align-content: stretch;
 }
 
 /* HOMEPAGE PROJECT PREVIEW STYLES */
@@ -237,6 +244,10 @@ h3 {
 h3.mdl-card__title-text {
   font-weight: 600;
   letter-spacing: 2px;
+}
+
+h3.testimonials {
+  padding-top: 15vh;
 }
 
 h4 {
