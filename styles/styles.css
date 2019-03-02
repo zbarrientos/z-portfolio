@@ -461,7 +461,9 @@ h1.hero_name {
 
 img.hero {
   margin: 0 auto;
-  padding-top: 15vh;
+  padding-left: 3vh;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
 }
 
 section.welcome_container {
