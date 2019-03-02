@@ -37,6 +37,7 @@ div.container {
 
 /* HOMEPAGE SPECIFIC SECTIONS */
 
+
 section.welcome_container {
   background-color: hsla(360, 100%, 100%, 0.05);
   margin-bottom: 20vh;
@@ -103,6 +104,12 @@ div.experience {
 img {
   height: auto;
   max-width: 100%;
+}
+
+img.hero {
+  margin: 0 auto;
+  padding-left: 17vh;
+  padding-top: 20vh;
 }
 
 div.experience > img {
@@ -197,6 +204,7 @@ h1 {
   padding-top: 20vh;
 }
 
+/*
 h1.hero_name {
   color: hsla(0, 0%, 100%, 1);
   font-family: futura-pt, sans-serif;
@@ -207,6 +215,7 @@ h1.hero_name {
   padding-top: 30vh;
   text-align: center;
 }
+*/
 
 h1.aboutme{
   color: #FF44DB;
@@ -224,6 +233,7 @@ h2 {
   letter-spacing: 2px;
 }
 
+/*
 h2.hero_role_location {
   color: hsla(0, 0%, 100%, 1);
   font-size: 1em;
@@ -231,7 +241,7 @@ h2.hero_role_location {
   padding-left: 2vw;
   text-align: center;
 }
-
+*/
 
 h3 {
   color: white;
@@ -443,8 +453,16 @@ h1 {
   letter-spacing: 10px;
 }
 
+/*
 h1.hero_name {
   padding-top: 25vh;
+}
+*/
+
+img.hero {
+  margin: 0 auto;
+  padding-left: 5vh;
+  padding-top: 15vh;
 }
 
 section.welcome_container {
@@ -478,9 +496,11 @@ a.mdl-navigation__link {
   font-size: 1.2rem;
 }
 
+/*
 h1.hero_name {
   font-size: 3em;
 }
+*/
 
 h2.hero_role_location {
   color: hsla(0, 0%, 100%, 1);
